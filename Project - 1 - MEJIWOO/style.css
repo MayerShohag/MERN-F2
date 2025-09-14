@@ -1,0 +1,146 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+     list-style: none;
+     text-decoration: none;
+}
+
+/* nav section starts from here  */
+nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 30px 0 30px 40px;
+     width: 1400px;
+     margin: 0 auto;
+}
+ul {
+     display: flex;
+     align-items: center;
+     gap: 60px;
+}
+ul li a {
+     color: #505050;
+     font-size: 20px;
+     font-weight: 400;
+}
+ul li a:hover {
+     padding-bottom: 5px;
+     border-bottom: 2px solid black;
+     transition: all 0.2s;
+     color: #000000;
+}
+
+.brand-logo {
+     font-size: 20px;
+     font-weight: 600;
+     color: #000000;
+}
+
+/* nav section ends here  */
+
+/* hero section starts from here  */
+
+.hero-section {
+     width: 1440px;
+     height: 536px;
+     object-fit: cover;
+     margin: 0 auto;
+}
+.hero-section-bannar {
+     width: 100%;
+     height: 100%;
+}
+/* hero section ends here  */
+
+/* collection starts from here */
+.collection,
+.seller {
+     width: 100%;
+     margin: 100px auto;
+}
+.collection > h1,
+.seller > h1 {
+     font-size: 48px;
+     font-weight: 600;
+     text-align: center;
+     margin: 40px 0;
+}
+
+.collection-cards,
+.seller-cards {
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+     flex-wrap: wrap;
+}
+
+.card {
+     border: 2px solid rgb(160, 160, 160);
+     width: 397px;
+     text-align: center;
+     box-shadow: 2px 2px 10px rgb(197, 197, 197);
+     padding-bottom: 10px;
+}
+.card h1 {
+     font-size: 32px;
+     font-weight: 500;
+     color: #000000;
+     text-align: center;
+     padding: 10px 0;
+     padding-bottom: 30px;
+}
+.card button {
+     background-color: #8a8a8a;
+     border: none;
+     padding: 10px 20px;
+     color: white;
+     font-size: 20px;
+     cursor: pointer;
+}
+.card button:hover {
+     border-radius: 10px;
+     transition: all 0.2s;
+     background-color: #535353;
+}
+.card-image > img {
+     width: 100%;
+     height: 496px;
+     object-fit: cover;
+}
+/* collection ends here  */
+
+/* footer seciton starts from here  */
+footer{
+     display: flex;
+     justify-content: space-around;
+     padding: 40px 10px;
+     font-size: 20px;
+     color: #505050;
+}
+footer a{
+     color: #000000;
+}
+/* footer seciton ends here  */
+
+@media screen and (max-width: 500px) {
+     nav {
+          flex-direction: column-reverse;
+          width: 100%;
+     }
+     ul {
+          flex-direction: column;
+          gap: 15px;
+          margin-top: 20px;
+     }
+     .hero-section {
+          width: 100%;
+          margin: 40px auto;
+          height: auto;
+     }
+     .collection h1, .seller h1{
+          font-size: 35px;
+     }
+}
