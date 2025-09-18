@@ -1,0 +1,339 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style-type: none;
+     font-family: "Poppins", sans-serif;
+}
+
+.container {
+     width: 1520px;
+     padding: 0 100px;
+     margin: 0 auto;
+}
+
+body {
+     background-color: #e8e6de;
+}
+/* header section starts from here  */
+header {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 100px;
+     background-color: #eeede7;
+     font-size: 18px;
+}
+.logo img {
+     width: 178px;
+     height: 51px;
+}
+
+nav ul {
+     display: flex;
+     align-items: center;
+     gap: 30px;
+}
+nav ul li a {
+     color: #503217;
+}
+
+.search-cart {
+     display: flex;
+     gap: 30px;
+}
+.search-cart img {
+     width: 25px;
+     height: 25px;
+}
+/* header section ends here  */
+
+/* hero section :start from here  */
+.hero-section {
+     display: flex;
+     gap: 50px;
+     align-items: center;
+     justify-content: center;
+}
+.hero-section-text {
+     width: 50%;
+     padding: 0 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+}
+.hero-section-text h1 {
+     font-size: 80px;
+     font-weight: 500;
+     color: #503217;
+     line-height: 110%;
+}
+.hero-section-text p {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 150%;
+     color: #8f7d6a;
+}
+
+.shop-btn {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     background-color: #503217;
+     padding: 20px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+     width: 160px;
+     height: 48px;
+}
+.shop-btn p {
+     font-size: 18px;
+     color: #f2f2f2;
+}
+.banner-section {
+     width: 50%;
+     padding: 100px;
+     height: 700px;
+}
+.banner-section img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+}
+
+/* hero section ends  here  */
+
+/* category section starts from here  */
+.category-section {
+     text-align: center;
+     background-color: #e8e6debf;
+     padding: 0 40px;
+     padding-bottom: 100px;
+}
+.random-h1 {
+     font-size: 48px;
+     font-weight: 500;
+     padding: 50px 0;
+     color: #503217;
+     text-align: center;
+}
+.category-section-cards {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 20px;
+}
+.category-card {
+     border: 1px solid #8f7d6a8d;
+     border-radius: 10px;
+     padding: 20px;
+}
+.bold-p {
+     color: #503217;
+     font-weight: 500;
+     font-size: 18px;
+}
+.normal-p {
+     color: #8f7d6a;
+     font-size: 16px;
+}
+/* category section ends  here  */
+
+/* product section starts from here  */
+.product-section {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+}
+.product-section-card {
+     background-color: #f2f2f2;
+     width: 424.244140625px;
+     height: 266.08917236328125px;
+     display: flex;
+     padding: 20px;
+     border-radius: 10px;
+}
+.product-text {
+     width: 60%;
+}
+
+.product-image {
+     width: 40%;
+}
+.product-image img {
+     object-fit: cover;
+     width: 100%;
+}
+.product-section-card img {
+     width: 100%;
+     height: 100%;
+}
+.product-text h1 {
+     font-size: 24px;
+     color: #503217;
+     font-weight: 500;
+     line-height: 150%;
+     margin-top: 95px;
+}
+.product-text button {
+     display: flex;
+     align-items: center;
+     font-size: 18px;
+     color: #8f7d6a;
+     border: none;
+     text-decoration: underline;
+     cursor: pointer;
+     display: flex;
+     gap: 10px;
+}
+.product-text button img {
+     width: 24px;
+     height: 24px;
+}
+
+.discount {
+     position: absolute;
+     background-color: #d3744a;
+     padding: 8px;
+     border-radius: 10px;
+     color: #eeede7;
+}
+
+/* product section ends  here  */
+
+/* health product section starts from here  */
+.health-product-card {
+     padding: 0 100px;
+}
+.health-product{
+     padding-top: 100px;
+}
+.health-card {
+     position: relative;
+     width: 302px;
+     height: 341px;
+}
+.health-card-img {
+     border-radius: 10px;
+     background-color: #f2f2f2;
+     width: 100%;
+     height: 70%;
+}
+.health-card-img img {
+     width: 100%;
+     height: 100%;
+}
+.token {
+     position: absolute;
+     top: 15px;
+     left: 15px;
+}
+.health-product-text {
+     padding: 10px;
+}
+.health-product-card {
+     display: flex;
+     gap: 50px;
+}
+/* health product section ends  here  */
+
+/* client review section starts from here  */
+.clients-review-section {
+     width: 100%;
+     background-color: #e8e6debf;
+     padding: 80px 100px;
+     padding-bottom: 40px;
+}
+.clients-review img {
+     position: absolute;
+     top: 40px;
+     left: 20px;
+     opacity: 0.5;
+}
+.clients-review {
+     position: relative;
+     background-color: #f2f2f2;
+     padding: 20px;
+     border-radius: 10px;
+}
+.clients-review p {
+     padding: 50px 100px;
+     padding-top: 70px;
+     border-radius: 10px;
+     color: #8f7d6a;
+     text-align: center;
+}
+/* client review section ends here  */
+
+/* client image sections starts from here  */
+.client-images-section {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     background-color: #e8e6debf;
+     padding: 0 100px;
+     padding-bottom: 100px;
+}
+.client-info {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.client-image {
+     width: 60px;
+     height: 60px;
+}
+.client-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 100%;
+     object-position: top;
+}
+/* client image sections ends here */
+
+/* footer section starts from here  */
+footer {
+     width: 1520px;
+     margin: 0 auto;
+     background-color: #e0e0e0;
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+     padding: 50px 100px;
+     padding-bottom: 0;
+}
+.pages {
+     grid-column: 1 / 3;
+}
+.common-h2 {
+     color: #503217;
+     font-weight: 500;
+     font-size: 24px;
+}
+.common-para {
+     color: #8f7d6a;
+     font-size: 18px;
+}
+.utility {
+     grid-column: 3/ 5;
+}
+.footer-logo {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding: 50px 100px;
+     text-align: center;
+     grid-column: 5 / 10;
+}
+.contact-section {
+     grid-column: 10/ 13;
+}
+.copyright {
+     border-top: 1px solid black;
+     text-align: center;
+     grid-column: 1 / -1;
+     padding: 20px 0;
+     color: #503217;
+}
+/* footer section ends here  */

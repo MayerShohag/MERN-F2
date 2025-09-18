@@ -1,0 +1,133 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Facebook Sans", sans-serif;
+     color: var(--color-primary);
+     text-decoration: none;
+     list-style-type: none;
+     scroll-behavior: smooth;
+     scrollbar-color: var(--dark-box) transparent;
+}
+:root {
+     --dark-primary: #252728;
+     --dark-secondary: #252728;
+     --dark-box: #505050;
+     --color-primary: #b0b1af;
+     --dark-box-2: #404040;
+     --color-secondary: #b0b3ab;
+     --color-logo: #0866ff;
+}
+.container {
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+}
+
+/* header section starts from here  */
+.header {
+     grid-column: 1 / -1;
+     background-color: var(--dark-primary);
+     border-bottom: 2px solid var(--color-primary);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 8px 15px;
+}
+.logo-search {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+#search-box {
+     padding: 10px 20px;
+     width: 14rem;
+     padding-top: 12px;
+     border-radius: 100px;
+     background-color: var(--dark-box-2);
+     outline: none;
+     border: none;
+}
+#search-box:hover {
+     background-color: var(--dark-box);
+}
+#search-box::placeholder {
+     font-size: 15px;
+}
+.fa-facebook {
+     font-size: 40px;
+     color: var(--color-logo);
+}
+.nav-menu {
+     display: flex;
+     padding: 10px;
+     gap: 5px;
+     transition: all 0.2s;
+}
+.nav-access {
+     display: flex;
+     gap: 10px;
+     padding: 10px;
+}
+.nav-access li a {
+     font-size: 20px;
+     border: none;
+     border-radius: 100%;
+     background-color: var(--dark-box-2);
+     padding: 8px;
+}
+.nav-access li a:hover {
+     background-color: var(--dark-box);
+}
+
+/* nav menu section start here  */
+.nav-menu li a {
+     padding: 15px 40px;
+     font-size: 25px;
+     border-radius: 10px;
+}
+.nav-menu li a:hover {
+     background-color: var(--dark-box-2);
+}
+/* nav menu section ends here  */
+
+/* header section ends here  */
+
+/* menu section starts from here  */
+.menu {
+     grid-column: 1/ 4;
+     padding: 20px;
+     background-color: var(--dark-primary);
+     border-right: 2px solid var(--color-primary);
+     overflow: auto;
+}
+.menu p {
+     height: 100vh;
+}
+/* menu section ends here */
+
+/* main section stars from here  */
+.main {
+     grid-column: 4 / 10;
+     padding: 20px 60px;
+     background-color: var(--dark-primary);
+     border-bottom: 2px solid var(--color-primary);
+     overflow: auto;
+}
+.main p {
+     height: 100vh;
+}
+/* main section ends here  */
+
+/* aside section starts from here  */
+
+.aside {
+     grid-column: 10 / span 12;
+     padding: 20px;
+     background-color: var(--dark-primary);
+     border-left: 2px solid var(--color-primary);
+     overflow: auto;
+}
+.aside p {
+     height: 100vh;
+}
+/* aside section ends here  */
