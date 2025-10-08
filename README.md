@@ -6,4 +6,4 @@
 
 4. Assesment live link : https://assesment1byshohag.netlify.app/
 
-5. Bodyshape live link : 
+5. Bodyshape live link : https://assesment2byshohag.netlify.app/
