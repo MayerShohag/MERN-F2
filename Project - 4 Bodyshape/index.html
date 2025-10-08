@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <title>Bodyshape</title>
+
+          <!-- font awesome cdn link  -->
+          <link
+               rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+               integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+               crossorigin="anonymous"
+               referrerpolicy="no-referrer"
+          />
+
+          <!-- tailwind cdn link  -->
+          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+          <!-- custom css link  -->
+          <link rel="stylesheet" href="style.css" />
+     </head>
+     <body class="bg-black">
+          <section class="">
+               <header
+                    class="grid text-white grid-cols-1 z-10 bg-black lg:sticky lg:top-0 items-center py-2 lg:px-20 lg:grid-cols-2"
+               >
+                    <section class="">
+                         <a
+                              href="#"
+                              class="flex justify-center lg:justify-start"
+                         >
+                              <img
+                                   src="./images/logo_left.png"
+                                   alt="logo_left"
+                                   class="w-7 h-5"
+                              />
+                              <img
+                                   src="./images/logo.png"
+                                   alt="logo"
+                                   class="h-14 w-36"
+                              />
+                              <img
+                                   src="./images/logo_right.png"
+                                   alt="logo_right"
+                                   class="w-7 h-5"
+                              />
+                         </a>
+                    </section>
+                    <nav class="">
+                         <ul
+                              class="lg:flex items-center float-end lg:gap-10 hidden text-[16px]"
+                         >
+                              <li>
+                                   <a
+                                        class="hover:border-b-2 border-[#F66844] pb-3 px-2 transition-all"
+                                        href="#home"
+                                        >Home</a
+                                   >
+                              </li>
+                              <li>
+                                   <a
+                                        class="hover:border-b-2 border-[#F66844] pb-3 px-2 transition-all"
+                                        href="#services"
+                                        >Services</a
+                                   >
+                              </li>
+                              <li>
+                                   <a
+                                        class="hover:border-b-2 border-[#F66844] pb-3 px-2 transition-all"
+                                        href="#about"
+                                        >About</a
+                                   >
+                              </li>
+                              <li>
+                                   <a
+                                        class="hover:border-b-2 border-[#F66844] pb-3 px-2 transition-all"
+                                        href="#contacts"
+                                        >Contacts</a
+                                   >
+                              </li>
+                              <li>
+                                   <a
+                                        class="p-2 transition-all bg-gradient-to-r from-[#F66844] to-[#FF921B] hover:bg-gradient-to-l hover:to-[#FF921B] hover:from-[#F66844]"
+                                        href="#join_us"
+                                        >Join Us</a
+                                   >
+                              </li>
+                         </ul>
+                    </nav>
+               </header>
+
+               <main>
+                    <!-- hero section start from here  -->
+                    <section
+                         class="hero-section max-w-[1500px] mx-auto text-white relative bg-[url('./images/banner.png')] bg-cover bg-top bg-no-repeat h-[425px] md:h-[600px] lg:h-[1124px]"
+                    >
+                         <div
+                              class="bg-gradient-to-b from-[rgba(57,57,57,0.3)] md:absolute md:left-2 md:top-15 p-5 lg:top-20 lg:left-2 lg:p-15 to-[rgba(57,57,57,0)]"
+                         >
+                              <h1
+                                   class="lg:text-[64px] text-3xl lg:leading-20 font-bold"
+                              >
+                                   Transform <br />
+                                   Your Body
+                              </h1>
+                              <p
+                                   class="text-white text-sm lg:text-lg py-5 opacity-50 font-normal"
+                              >
+                                   We are dedicated to helping you transform
+                                   your <br />
+                                   body and mind through the power of fitness.
+                              </p>
+                              <div
+                                   class="lg:pt-20 pb-2 flex flex-col lg:flex-row gap-5"
+                              >
+                                   <button
+                                        class="bg-gradient-to-r text-sm lg:text-lg lg:px-5 lg:py-2 py-1 from-[#F66844] to-[#FF921B] hover:bg-gradient-to-r cursor-pointer hover:to-[#F66844] hover:from-[#FF921B]"
+                                   >
+                                        Get Started
+                                   </button>
+                                   <button
+                                        class="border-2 text-sm lg:text-lg lg:px-6 py-1 border-[#F66844] hover:text-[#F66844] transition-all cursor-pointer"
+                                   >
+                                        <i
+                                             class="fa-regular fa-circle-play"
+                                        ></i>
+                                        Watch Reviews
+                                   </button>
+                              </div>
+                         </div>
+
+                         <div
+                              class="icons [clip-path:polygon(0_0,160px_0,0_300px)] lg:[clip-path:polygon(0_0,180px_0,0_300px)] lg:absolute absolute lg:bottom-[-20px] bottom-[-15px] bg-gradient-to-r from-[#F66844] to-[#FF921B] text-xl lg:text-2xl px-4 pr-10 flex gap-5 py-1"
+                         >
+                              <a href="#"
+                                   ><i class="fa-brands fa-google"></i
+                              ></a>
+                              <a href="#"
+                                   ><i class="fa-brands fa-facebook"></i
+                              ></a>
+                              <a href="#"
+                                   ><i class="fa-brands fa-youtube"></i
+                              ></a>
+                         </div>
+                    </section>
+                    <!-- hero section ends here  -->
+
+                    <!-- Fitness Plans & Nutritions section start from here  -->
+                    <section
+                         class="fitness-section max-w-[1500px] mx-auto lg:py-40 text-white bg-[url('./images/roated_banner.png')] bg-cover bg-right-bottom md:bg-top bg-no-repeat h-full md:h-[750px] lg:h-[950px]"
+                    >
+                         <h1
+                              class="text-2xl p-5 pt-10 lg:pt-0 lg:text-4xl font-semibold text-center md:text-left md:pl-20 md:text-3xl"
+                         >
+                              Fitness Plans &
+                              <span class="text-[#FF921B]">Nutritions</span>
+                         </h1>
+
+                         <section
+                              class="grid p-2  md:p-15 lg:p-20 lg:px-40 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+                         >
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] border-[#FF921B] md:bg-transparent p-5 md:m-0 m-5 md:border-t-0 md:border-r md:border-b lg:border-r lg:border-b"
+                              >
+                                   <img
+                                        src="./images/weight.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="weight"
+                                   />
+                                   <h1 class="text-center my-2">Weight Loss</h1>
+                                   <p
+                                        class="text-[15px] font-normal text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        Weight loss can have causes that aren't
+                                        due to underlying disease. Examples
+                                        include dieting, exercise, malnutrition
+                                        or lack of access to food.
+                                   </p>
+                              </section>
+
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] border-[#FF921B] md:bg-transparent p-5 md:m-0 m-5 md:border-b lg:border-r lg:border-b"
+                              >
+                                   <img
+                                        src="./images/yoga.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="yoga"
+                                   />
+                                   <h1 class="text-center my-2">
+                                        Classic Yoga
+                                   </h1>
+                                   <p
+                                        class="text-sm text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        The term "yoga" in the Western world
+                                        often denotes a modern form of Hatha
+                                        yoga and a posture-based physical
+                                        fitness, stress-relief.
+                                   </p>
+                              </section>
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] border-[#FF921B] md:bg-transparent p-5 md:m-0 m-5 md:border-r md:border-b lg:border-r-0 lg:border-b"
+                              >
+                                   <img
+                                        src="./images/cycling.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="cycling"
+                                   />
+                                   <h1 class="text-center my-2">Cycling</h1>
+                                   <p
+                                        class="text-sm text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        Cycling, also, when on a two-wheeled
+                                        bicycle, called bicycling or biking, is
+                                        the use of cycles for transport,
+                                        recreation, exercise or sport.
+                                   </p>
+                              </section>
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] border-[#FF921B] md:bg-transparent p-5 md:m-0 m-5 md:border-b lg:border-b-0 lg:border-r"
+                              >
+                                   <img
+                                        src="./images/body.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="body"
+                                   />
+                                   <h1 class="text-center my-2">
+                                        Body Building
+                                   </h1>
+                                   <p
+                                        class="text-sm text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        Bodybuilding is the use of progressive
+                                        resistance exercise to control and
+                                        develop one's muscles by muscle
+                                        hypertrophy for aesthetic purposes.
+                                   </p>
+                              </section>
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] border-[#FF921B] md:bg-transparent p-5 md:m-0 m-5 md:border-r lg:border-r"
+                              >
+                                   <img
+                                        src="./images/musculation.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="musculation"
+                                   />
+                                   <h1 class="text-center my-2">Musculation</h1>
+                                   <p
+                                        class="text-sm text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        Weight training is a common type of
+                                        strength training for developing the
+                                        strength, size of skeletal muscles and
+                                        maintenance of strength.
+                                   </p>
+                              </section>
+                              <section
+                                   class="bg-[rgba(255,255,255,0.1)] md:bg-transparent p-5 md:m-0 m-5"
+                              >
+                                   <img
+                                        src="./images/fitness.png"
+                                        class="w-8 h-8 mx-auto"
+                                        alt="fitness"
+                                   />
+                                   <h1 class="text-center my-2">
+                                        Fitness Running
+                                   </h1>
+                                   <p
+                                        class="text-sm text-[rgba(255,255,255,0.5)] text-center px-10"
+                                   >
+                                        Running is a method of terrestrial
+                                        locomotion allowing humans and other
+                                        animals to move rapidly on foot.
+                                   </p>
+                              </section>
+                         </section>
+                    </section>
+                    <!-- Fitness Plans & Nutritions section ends here -->
+
+                    <!-- Subscribe plan section starts from here  -->
+                    <section
+                         class="plans-section text-white max-w-[1500px] mx-auto md:my-50 lg:my-[-5rem] lg:mb-20"
+                    >
+                         <h1
+                              class="text-2xl lg:mb-10 p-5 pt-10 lg:pt-0 lg:text-4xl text-center md:text-left md:pl-20 md:text-3xl"
+                         >
+                              Subscribe To
+                              <span class="text-[#FF921B]">Plans</span>
+                         </h1>
+
+                         <section
+                              class="w-10/12 mx-auto gap-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+                         >
+                              <section
+                                   class="text-center  transition-all hover:scale-105 p-10 bg-gradient-to-b from-[rgba(57,57,57,0.3)] to-[rgba(57,57,57,0)]"
+                              >
+                                   <h1 class="text-2xl">Fit</h1>
+                                   <p
+                                        class="text-[rgba(255,255,255,0.5)] text-[16px] my-5"
+                                   >
+                                        Plan Exp. 16/11/2024
+                                   </p>
+                                   <p class="text-2xl my-3">
+                                        ₹1200 /<span
+                                             class="text-[rgba(255,255,255,0.5)] text-sm"
+                                             >Month</span
+                                        >
+                                   </p>
+                                   <p class="my-5">Streaming</p>
+                                   <button
+                                        class="border w-full border-[#FF921B] py-2 hover:text-[#FF921B] transition-all cursor-pointer"
+                                   >
+                                        Select Plan
+                                   </button>
+                              </section>
+
+                              <section
+                                   class="text-center transition-all hover:scale-105 relative p-10 bg-gradient-to-b transform scale-110 md:scale-110 lg:scale-120 from-[rgba(57,57,57,0.3)] to-[rgba(57,57,57,0)]"
+                              >
+                                   <span
+                                        class="absolute top-[-15px] left-30 md:left-17 lg:left-28 rounded-sm bg-white text-black px-4 py-1"
+                                        >Recommended</span
+                                   >
+                                   <h1 class="text-2xl">Fit</h1>
+                                   <p
+                                        class="text-[rgba(255,255,255,0.5)] text-[16px] my-5"
+                                   >
+                                        Plan Exp. 16/11/2024
+                                   </p>
+                                   <p class="text-2xl my-3">
+                                        ₹1000 /<span
+                                             class="text-[rgba(255,255,255,0.5)] text-sm"
+                                             >Month</span
+                                        >
+                                   </p>
+                                   <p class="my-5">Streaming</p>
+                                   <button
+                                        class="border w-full border-[#FF921B] py-2 hover:text-[#FF921B] transition-all cursor-pointer"
+                                   >
+                                        Select Plan
+                                   </button>
+                              </section>
+
+                              <section
+                                   class="text-center transition-all hover:scale-105 p-10 bg-gradient-to-b from-[rgba(57,57,57,0.3)] to-[rgba(57,57,57,0)]"
+                              >
+                                   <h1 class="text-2xl">Fit</h1>
+                                   <p
+                                        class="text-[rgba(255,255,255,0.5)] text-[16px] my-5"
+                                   >
+                                        Plan Exp. 16/11/2024
+                                   </p>
+                                   <p class="text-2xl my-3">
+                                        ₹1500 /<span
+                                             class="text-[rgba(255,255,255,0.5)] text-sm"
+                                             >Month</span
+                                        >
+                                   </p>
+                                   <p class="my-5">Streaming</p>
+                                   <button
+                                        class="border w-full border-[#FF921B] py-2 hover:text-[#FF921B] transition-all cursor-pointer"
+                                   >
+                                        Select Plan
+                                   </button>
+                              </section>
+                         </section>
+                    </section>
+                    <!-- Subscribe plan section ends here -->
+
+                    <!-- Trainer section starts from here  -->
+                    <section
+                         class="plans-section text-white max-w-[1500px] mx-auto md:my-50 lg:my-[10rem] lg:mb-20"
+                    >
+                         <h1
+                              class="text-2xl lg:mb-10 p-5 pt-10 lg:pt-0 lg:text-4xl text-center md:text-left md:pl-20 md:text-3xl"
+                         >
+                              Join Out
+                              <span class="text-[#FF921B]">Trainer</span>
+                         </h1>
+
+                         <section
+                              class="w-10/12 mx-auto gap-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+                         >
+                              <section class="mx-auto">
+                                   <img
+                                        src="./images/trainer_01.png"
+                                        alt="julia"
+                                        class="transition-all hover:scale-105"
+                                   />
+                              </section>
+
+                              <section class="mx-auto">
+                                   <img
+                                        src="./images/trainer_02.png"
+                                        alt="subhan"
+                                        class="transition-all hover:scale-105"
+                                   />
+                              </section>
+
+                              <section class="mx-auto">
+                                   <img
+                                        src="./images/trainer_03.png"
+                                        alt="graham"
+                                        class="transition-all hover:scale-105"
+                                   />
+                              </section>
+                         </section>
+                    </section>
+                    <!-- Trainer section ends here -->
+
+                    <!-- join us section starts from here  -->
+                    <section
+                         class="join-us-section text-white mt-20 max-w-[1500px] mx-auto lg:my-50"
+                    >
+                         <h1
+                              class="text-2xl lg:mb-10 p-5 pt-10 lg:pt-0 lg:text-4xl text-center md:text-left md:pl-20 md:text-3xl"
+                         >
+                              Why Join With
+                              <span class="text-[#FF921B]">Us?</span>
+                         </h1>
+
+                         <section
+                              class="grid grid-cols-1 md:grid-cols-2 lg:px-50 px-10 gap-20"
+                         >
+                              <section>
+                                   <ul
+                                        class="list-disc flex flex-col font-bold gap-5 p-15 bg-gradient-to-b from-[rgba(57,57,57,0.3)] to-[rgba(57,57,57,0)]"
+                                   >
+                                        <li>Best Gym</li>
+                                        <li>Experts Coach</li>
+                                        <li>Good Workout Facilities</li>
+                                        <li>Consultation With Experts</li>
+                                        <div>
+                                             <button
+                                                  class="px-5 py-1 mt-10 bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)] hover:from-[rgba(255,146,27,1)] hover:to-[rgba(246,104,68,1)] cursor-pointer"
+                                             >
+                                                  See More Benifits
+                                             </button>
+                                        </div>
+                                   </ul>
+                              </section>
+                              <section class="relative h-[500px]">
+                                   <div class="absolute top-0 left-0">
+                                        <img
+                                             src="./images/join_us_01.png"
+                                             class="max-w-[180px] h-[215px] transition-all hover:scale-110"
+                                             alt="join_us_01"
+                                        />
+                                   </div>
+                                   <div class="absolute bottom-0 right-0">
+                                        <img
+                                             src="./images/join_us_02.png"
+                                             class="max-w-[180px] h-[215px] transition-all hover:scale-110"
+                                             alt="join_us_02"
+                                        />
+                                   </div>
+                              </section>
+                         </section>
+                    </section>
+                    <!-- join us section ends here -->
+
+                    <!-- footer section start from here  -->
+                    <section
+                         class="grid grid-cols-1 md:px-15 lg:px-20 md:py-15 lg:py-30 md:grid-cols-3 md:gap-10 lg:grid-cols-5 mt-20 p-10 bg-gradient-to-b text-white from-[rgba(57,57,57,0.4)] to-[rgba(57,57,57,0)]"
+                    >
+                         <section class="footer-logo ">
+                              <div>
+                                   <a
+                                        href="#"
+                                        class="flex justify-center lg:justify-start"
+                                   >
+                                        <img
+                                             src="./images/logo_left.png"
+                                             alt="logo_left"
+                                             class="w-7 h-5"
+                                        />
+                                        <img
+                                             src="./images/logo.png"
+                                             alt="logo"
+                                             class="h-14 w-36"
+                                        />
+                                        <img
+                                             src="./images/logo_right.png"
+                                             alt="logo_right"
+                                             class="w-7 h-5"
+                                        />
+                                   </a>
+                              </div>
+                              <p class="font-semibold text-xl text-center my-5">Support Your Need To <br> Much Fitness Goal</p>
+                         </section>
+
+                         <section class="company text-center  lg:text-left">
+                              <ul class="flex flex-col gap-2">
+                                   <li class="text-xl font-semibold mt-8 md:mt-0 md:mb-5">Company</li>
+                                   <li><a href="#about">About</a></li>
+                                   <li><a href="#careers">Careers</a></li>
+                                   <li><a href="#blogs">Blogs</a></li>
+                              </ul>
+                         </section>
+
+                         <section class="contact text-center lg:text-left">
+                              <ul class="flex flex-col gap-2">
+                                   <li class="text-xl font-semibold mt-8 md:mt-0 md:mb-5">Contact</li>
+                                   <li><a href="#faq">Help \FAQ</a></li>
+                                   <li><a href="#press">Press</a></li>
+                              </ul>
+                         </section>
+
+                         <section class="more text-center lg:text-left">
+                              <ul class="flex flex-col gap-2">
+                                   <li class="text-xl font-semibold mt-8 md:mt-0 md:mb-5">More</li>
+                                   <li><a href="#program">Program</a></li>
+                                   <li><a href="#plan">Plan</a></li>
+                                   <li><a href="#method">Method</a></li>
+                              </ul>
+                         </section>
+
+                         <section class="tags">
+                              <ul>
+                                   <li class="text-center text-xl font-semibold mt-8 md:mt-0 md:mb-5">Popular Tags</li>
+                                   <div class="mt-4 text-center lg:text-left max-w-[250px] mx-auto">
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Abs</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Workout</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Neutrition</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Boxing</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Gym</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Facilities</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Plans</span>
+                                        <span class="px-3 py-1 my-1 inline-block text-sm font-normal bg-[rgba(255,255,255,0.5)] hover:bg-gradient-to-r from-[rgba(246,104,68,1)] to-[rgba(255,146,27,1)]">Trainers</span>
+                                   </div>
+                              </ul>
+                         </section>
+                    </section>
+                    <!-- footer section ends here -->
+
+                    <!-- copyright section starts from here  -->
+                     <section class="text-white text-center py-5 bg-[rgba(255,146,27,1)]">
+                         <p class="flex justify-center items-center gap-2"><span class="text-3xl">&copy;</span> 2023 All Rights Reserved</p>
+                     </section>
+                    <!-- copyright section ends here  -->
+               </main>
+          </section>
+     </body>
+</html>

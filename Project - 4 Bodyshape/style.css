@@ -1,0 +1,9 @@
+@font-face {
+      font-family: 'lucida';
+      src: url("./fonts/LSANS.TTF");
+}
+
+*{
+      font-family: "lucida";
+      /* font-weight: 900; */
+}
